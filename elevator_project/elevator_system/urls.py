@@ -8,6 +8,6 @@ router.register(r'requests', RequestViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('api/', include('elevator_system.urls')),
+    # path('api/', include('elevator_system.urls')),
 
 ]
